@@ -1,18 +1,18 @@
-//***** import para rodar o código original da lista01.2.1-GRASP-refactoring
+// import para rodar o código original da lista01.2.1-GRASP-refactoring
 //import locadora.*;
 
-//***** import para rodar o código alterado pela lista01.2.2-GRASP-refactoring
+// import para rodar o código alterado pela lista01.2.2-GRASP-refactoring
 // refactoring 1
 //import locadora.Locacao;
 //import locadora.Carro;
 //import refactoring1.*;
 
-//***** import para executar o código conforme modificações da lista01.2.3-GRASP-refactoring
+// import para executar o código conforme modificações da lista01.2.3-GRASP-refactoring
 //import locadora.Carro;
 //import refactoring2.Cliente;
 //import refactoring2.Locacao;
 
-//********** import para executar o código conforme modificações da lista01.2.4-GRASP-refactoring
+//import para executar o código conforme modificações da lista01.2.4-GRASP-refactoring
 // Tarefa refactoring3
 //import refactoring3.*;
 
