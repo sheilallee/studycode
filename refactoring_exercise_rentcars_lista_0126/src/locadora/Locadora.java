@@ -17,5 +17,6 @@ public class Locadora {
 		c1.adicionaLocacao(new Locacao(new Automovel("Volkswagen Gol", 2021, "JJJ0055", Automovel.BASICO), 3));
 
 		System.out.println(c1.extrato());
+		// System.out.println("\n=== HTML ===\n" + c1.extratoHTML());
 	}
 }

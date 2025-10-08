@@ -12,9 +12,10 @@ public class Cliente {
         this.nome = nome; 
     }
     public String getNome(){ 
-        return nome; 
-    }
-    public void adicionaLocacao(Locacao locacao){ carrosAlugados.add(locacao); 
+        return nome;
+ }
+    public void adicionaLocacao(Locacao locacao){ 
+        carrosAlugados.add(locacao);
     }
 
     // Linha do extrato 
@@ -47,7 +48,7 @@ public class Cliente {
     //soma o valor das locações
     public double getValorTotal() {
         double total = 0.0;
-        for (Locacao l : carrosAlugados) {
+        for(Locacao l : carrosAlugados){
             total += l.valorDeUmaLocacao();
         }
         return total;
