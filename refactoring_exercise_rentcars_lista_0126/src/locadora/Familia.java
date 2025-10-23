@@ -4,7 +4,7 @@ public class Familia extends Classificacao{
 
     @Override
     public int getCodigoDoPreco(){
-        return Automovel.FAMILIA;
+        return Classificacao.FAMILIA;
     }
 
     @Override

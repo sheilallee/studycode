@@ -4,7 +4,7 @@ public class Luxo extends Classificacao{
 
     @Override
     public int getCodigoDoPreco(){
-        return Automovel.LUXO;
+        return Classificacao.LUXO;
     }
 
     @Override

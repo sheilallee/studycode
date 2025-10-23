@@ -4,7 +4,7 @@ public class Basica extends Classificacao{
 
     @Override
     public int getCodigoDoPreco(){
-        return Automovel.BASICO;
+        return Classificacao.BASICO;
     }
 
     @Override

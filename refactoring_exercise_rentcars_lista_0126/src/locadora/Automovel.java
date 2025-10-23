@@ -1,9 +1,6 @@
 package locadora;
 
 public class Automovel implements Alugavel {
-	  public static final int BASICO = 0;   // Carros hatch
-	  public static final int FAMILIA = 1;  // Carros Sedan ou SUV b�sico
-	  public static final int LUXO = 2;     // Carros padr�o luxo
 
 	  private String descricao;
 	  private String placa;
@@ -41,19 +38,7 @@ public class Automovel implements Alugavel {
 	//troca a classificaçao em tempo de execução
 	public void setCodigoDoPreco(int codigoDoPreco) {
 	   //this.codigoDoPreco = codigoDoPreco;
-	    switch(codigoDoPreco){
-            case BASICO:
-                this.classificacao = new Basica();
-                break;
-            case FAMILIA:
-                this.classificacao = new Familia();
-                break;
-            case LUXO:
-                this.classificacao = new Luxo();
-                break;
-            default:
-                this.classificacao = new Basica();
-        }
+	    this.classificacao = ClassificacaoFabrica.criar(codigoDoPreco);
 	}
 
 	
